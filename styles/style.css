@@ -36,10 +36,11 @@ li {
     padding: 20px;
     line-height: 0px;
     display: inline-block;
-    margin-inline: 20px;
+    margin-inline: 10px;
     text-align: center;
     list-style-type: none;
-    border-radius: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px black;
 
     background-color: var(--color3);
     transition: .2s;
@@ -200,11 +201,16 @@ footer>p>a {
     margin-bottom: 20px;
 }
 
+.skillLevel {
+    text-align: center;
+}
+
 .skillLevel>p {
     margin-bottom: 20px;
 }
 
 .skillIconsInline {
+    height: 120px;
     display: inline;
 }
 

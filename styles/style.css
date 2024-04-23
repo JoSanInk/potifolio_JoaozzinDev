@@ -22,9 +22,9 @@ body {
     font-family: Montserrat, Helvetica, sans-serif;
 }
 
-header {
+/* header {
     margin-bottom: 20px;
-}
+} */
 
 nav {
     justify-content: center;
@@ -76,6 +76,34 @@ h2 {
 p {
     margin-bottom: 20px;
     font-size: 1.1em;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    height: 75px;
+    background-color: var(--color2);
+}
+
+footer>p {
+    margin: 0px;
+    color: white;
+    font-family: "JetBrains Mono";
+    padding: 10px;
+}
+
+footer>p>a {
+    color: var(--color4);
+    font-family: "JetBrains Mono";
+    text-decoration: none;
+}
+
+video {
+    display: block;
+    max-width: calc(100vw - 80px);
+    margin: auto;
 }
 
 .activeSection {
@@ -155,6 +183,7 @@ p {
 }
 
 .skillItemDiv {
+    position: relative;
     padding: 20px;
     padding-bottom: 0px;
     border-radius: 15px 15px 0px 15px;
@@ -168,17 +197,47 @@ p {
     margin-bottom: 20px;
 }
 
+.skillIconsInline {
+    display: inline;
+}
+
+.centerInlinneImages {
+    width: fit-content;
+    margin: auto;
+}
+
 .skill {
     display: inline-block;
     background-color: var(--color2);
     color: var(--color5);
     padding: 10px;
     border-radius: 20px 20px 0px 20px;
-
 }
 
 .skillCheck {
     background-color: var(--color4);
+}
+
+.projectItem {
+    background-color: #040213;
+    padding: 15px 10px 20px 10px;
+    padding-bottom: 20px;
+    color: var(--color5);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.projectParagraph {
+    text-align: center;
+    margin: 20px;
+}
+
+.repoButton {
+    text-decoration: none;
+    color: var(--color5);
+    background-color: #4347E4;
+    padding: 10px;
+    border-radius: 10px 10px 0px 10px;
 }
 
 #profilepic {

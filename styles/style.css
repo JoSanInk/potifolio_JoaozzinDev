@@ -74,7 +74,7 @@ h2 {
 }
 
 p {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 1.1em;
 }
 
@@ -104,6 +104,10 @@ video {
     display: block;
     max-width: calc(100vw - 80px);
     margin: auto;
+}
+
+.paragraphBottomMargin {
+    margin-bottom: 20px;
 }
 
 .activeSection {
@@ -192,8 +196,16 @@ video {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
 }
 
+.skillItemDiv>p {
+    margin-bottom: 20px;
+}
+
 .skillIcons {
     height: 150px;
+    margin-bottom: 20px;
+}
+
+.skillLevel>p {
     margin-bottom: 20px;
 }
 
@@ -238,6 +250,14 @@ video {
     background-color: #4347E4;
     padding: 10px;
     border-radius: 10px 10px 0px 10px;
+}
+
+.contactText {
+    font-weight: 500;
+}
+
+.centerText {
+    text-align: center;
 }
 
 #profilepic {

@@ -1,0 +1,61 @@
+/* X-Small devices (portrait phones, less than 576px) */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .contactOptions {
+        margin-bottom: 20px;
+    }
+
+    .contactOptions div {
+        display: flex;
+        justify-content: space-between;
+        border-top: 2px solid rgba(189, 189, 189, 0.288);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    section {
+        max-width: 700px;
+        margin: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    nav {
+        text-align: left;
+    }
+
+    section {
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .achievementSeparator {
+        display: flex;
+        gap: 10px;
+    }
+
+    .achievementSeparator .acievementsDiv {
+        flex: 1;
+    }
+
+    .acievementsDiv {
+        text-align: center;
+    }
+
+    .acievementsDiv p {
+        padding: 0px;
+    }
+
+    .acievementsDiv p::before {
+        content: none;
+        /* display: none; */
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {} */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */

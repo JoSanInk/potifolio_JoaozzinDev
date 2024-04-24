@@ -26,7 +26,6 @@ body {
 }
 
 nav {
-    justify-content: center;
     background-color: var(--color2);
     padding-top: 10px;
     text-align: center;
@@ -67,7 +66,7 @@ mark {
 }
 
 h1 {
-   letter-spacing: -1px;
+    letter-spacing: -1px;
 }
 
 h2 {
@@ -83,7 +82,7 @@ p {
 
 video {
     display: block;
-    max-width: calc(100vw - 80px);
+    max-width: 100%;
     margin: auto;
 }
 
@@ -140,7 +139,7 @@ footer>p>a {
 
 .acievementsDiv {
     /* border: 2px dashed var(--color2); */
-    padding: 30px;
+    padding: 25px 30px 30px 30px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
     background-color: var(--color4);
@@ -166,7 +165,6 @@ footer>p>a {
 
 .acievementsDiv>h1 {
     font-size: 3em;
-    margin: 10px;
     color: var(--color2);
 }
 

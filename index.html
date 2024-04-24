@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joãozzin Dev</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
     <script defer src="./scripts/app.js"></script>
 </head>
 
@@ -24,7 +25,7 @@
     </header>
 
     <main>
-        <!--  -->
+        <!-- home -->
         <section class="activeSection">
             <img src="./assets/placeholder.png" alt="" id="profilepic" class="centralize">
             <h2 class="">Hi, I'm <mark>João Pedro.</mark> <br>Back-End Developer.</h2>
@@ -46,14 +47,18 @@
                     including Javascript, React native, NodeJS. I have a deep understanding of databases and am
                     proficient in Firebase. I am also experienced in building and managing high-traffic web applications
                     and have a proven track record of delivering projects on time and within budget.</p>
-                <div class="acievementsDiv">
-                    <h1>10+</h1>
-                    <p>projects <br> completed</p>
+
+                <div class="achievementSeparator">
+                    <div class="acievementsDiv">
+                        <h1>10+</h1>
+                        <p>projects <br> completed</p>
+                    </div>
+                    <div class="acievementsDiv">
+                        <h1>1+</h1>
+                        <p>years of<br> experience</p>
+                    </div>
                 </div>
-                <div class="acievementsDiv">
-                    <h1>1+</h1>
-                    <p>years of<br> experience</p>
-                </div>
+
                 <div class="acievementsDiv">
                     <h1>developer</h1>
                     <p>back-end</p>
@@ -145,7 +150,8 @@
         <!-- projects -->
         <section class="">
             <h2>MY <mark>PROJECTS</mark></h2>
-            <P class="paragraphBottomMargin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam libero alias quasi, ullam
+            <P class="paragraphBottomMargin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam
+                libero alias quasi, ullam
                 aspernatur maxime consectetur necessitatibus velit voluptas sit fugit sapiente dolorem laboriosam
                 officia porro iure dolorum ea!</P>
 
@@ -175,17 +181,28 @@
         <section class="">
             <h1 class="centerText h2TitleBottomSpacing">CONTACT <mark>ME</mark></h1>
 
-            <p class="contactTextBolder contactText">Location</p>
-            <p class="contactText h2TitleBottomSpacing">Canápolis-BA, Brazil</p>
+            <div class="contactOptions">
+                <div>
+                    <p class="contactTextBolder contactText">Location</p>
+                    <p class="contactText h2TitleBottomSpacing">Canápolis-BA, Brazil</p>
+                </div>
 
-            <p class="contactTextBolder contactText">Email</p>
-            <p class="contactText h2TitleBottomSpacing">redjp15@gmail.com</p>
+                <div>
+                    <p class="contactTextBolder contactText">Email</p>
+                    <p class="contactText h2TitleBottomSpacing">redjp15@gmail.com</p>
+                </div>
 
-            <p class="contactTextBolder contactText">Number</p>
-            <p class="contactText h2TitleBottomSpacing">+55 (77)99939-3545</p>
+                <div>
+                    <p class="contactTextBolder contactText">Number</p>
+                    <p class="contactText h2TitleBottomSpacing">+55 (77)99939-3545</p>
+                </div>
 
-            <p class="contactTextBolder contactText">Languages</p>
-            <p class="contactText h2TitleBottomSpacing">Portuguese, English</p>
+                <div>
+                    <p class="contactTextBolder contactText">Languages</p>
+                    <p class="contactText h2TitleBottomSpacing">Portuguese, English</p>
+                </div>
+
+            </div>
 
             <div class="centerInlinneImages">
                 <a href="#" target="_blank"><img src="./assets/icons/linkedin-50.png" alt="" class="socialIcons"></a>

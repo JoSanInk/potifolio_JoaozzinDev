@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joãozzin Dev</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script defer src="./scripts/app.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li class="selected"><img src="./assets/icons/home.png" alt="" class="icons"></li>
-                <li class=""><img src="./assets/icons/user.png" alt="" class="icons"></li>
-                <li class=""><img src="./assets/icons/product.png" alt="" class="icons"></li>
-                <li class=""><img src="./assets/icons/email.png" alt="" class="icons"></li>
+                <li class="selected" id="btnHome"><img src="./assets/icons/home.png" alt="" class="icons"></li>
+                <li class="" id="btnAbout"><img src="./assets/icons/user.png" alt="" class="icons"></li>
+                <li class="" id="btnProjects"><img src="./assets/icons/product.png" alt="" class="icons"></li>
+                <li class="" id="btnContact"><img src="./assets/icons/email.png" alt="" class="icons"></li>
             </ul>
 
             <div id="navBbarCraver"></div>
@@ -24,7 +25,7 @@
 
     <main>
         <!--  -->
-        <section class="">
+        <section class="activeSection">
             <img src="./assets/placeholder.png" alt="" id="profilepic" class="centralize">
             <h2 class="">Hi, I'm <mark>João Pedro.</mark> <br>Back-End Developer.</h2>
             <p class="paragraphBottomMargin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut in autem sit,
@@ -36,7 +37,7 @@
                 distinctio. Eum, laboriosam nihil.</p>
         </section>
         <!-- about me -->
-        <section class="activeSection">
+        <section class="">
             <div id="aboutSection">
                 <h1 class="">ABOUT <MARK>ME</MARK></h1>
                 <h2 class="textToLeft">INFORMATION ABOUT ME</h2>
